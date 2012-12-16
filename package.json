@@ -1,0 +1,24 @@
+{
+  "name": "node-ftok",
+  "version": "0.0.0",
+  "description": "Ftok native binding for node.js",
+  "main": "index.js",
+  
+  "directories": {
+    "test": "test"
+  },
+
+  "scripts": {
+    "test": "mocha -R spec test/test.js",
+    "install": "node-gyp rebuild"
+  },
+  
+  "devDependencies": {
+    "expect.js": "*"
+  },
+
+  "repository": "",
+  "author": "stoke",
+  "license": "MIT",
+  "gypfile": true
+}
